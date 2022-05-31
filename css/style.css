@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 3.125rem 0rem 0rem 0rem;
+  z-index: 0;
+}
+
+.navbar-dark {
+  background-color: #512da8;
+}
+
+.navbar-lg {
+  background-color: #566573;
+  color: floralwhite;
+  overflow: hidden;
+}
+
+.navbar-brand img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: 3px #ddd solid;
+}
+.carousel {
+  background: #512da8;
+  border-top: 0.625rem;
+  border-bottom: 0.3125rem;
+  margin-top: 0.625rem;
+  margin-bottom: 0.625rem;
+}
+.carousel .carousel-item {
+  height: 31.25rem;
+}
+.carousel .carousel-item img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  max-height: 31.25rem;
+  width: 100%;
+  object-fit: cover;
+}
+
+.footer {
+  background-color: #abb2b9;
+  margin: 0px auto;
+  padding: 0.3125rem 0.3125rem;
+}
+
+.row-content {
+  margin: 0rem auto;
+  padding: 3.125rem 0rem;
+  border-bottom: 0.0625rem ridge;
+  min-height: 25rem;
+}
+
+address {
+  font-size: 80%;
+  margin: 0rem;
+  color: #0f0f0f;
+}
+
+.list-group-item {
+  font-size: 0.8rem;
+}
+
+h5 {
+  font-size: 1rem;
+}
+
+@media only screen and (max-width: 730px) {
+  .carousel .carousel-item {
+    height: 18.15rem;
+  }
+  .carousel .carousel-item img {
+    min-height: 18.755rem;
+  }
+}
+
+.modal-header {
+  background: #512da8;
+  color: #fffaf0;
+}
+.modal-header button {
+  color: #fffaf0;
+}
+
+.modal-body {
+  background: #d1c4e9;
+}
+
+#login {
+  text-decoration: none;
+  font-size: 1.25rem;
+}
+
+.about,
+.products,
+.download,
+.client {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.small {
+  height: 100px;
+  width: 100px;
+}
+
+@media screen and (max-width: 768px) {
+  .small {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .small {
+    height: 60px;
+    width: 60px;
+  }
+  h4 {
+    font-size: 12px;
+  }
+}
